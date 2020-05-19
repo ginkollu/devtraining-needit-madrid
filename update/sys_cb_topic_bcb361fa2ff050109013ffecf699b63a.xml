@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description/>
+        <graph>{
+  "graph_api_version": "1.0.10.mp4",
+  "goals": {
+    "a6c52e1816dc419484a253e65860aa35": {
+      "id": "a6c52e1816dc419484a253e65860aa35",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "eeaa28c4b23747aea47bc832288d2ba4": {
+          "id": "eeaa28c4b23747aea47bc832288d2ba4",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "6a5a69e1e6914c41a0e9f952c8d319b2": {
+          "id": "6a5a69e1e6914c41a0e9f952c8d319b2",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b2dc5888ca3a435a82348b8d528f58bb",
+          "edgeType": "Edge",
+          "source": "eeaa28c4b23747aea47bc832288d2ba4",
+          "target": "6a5a69e1e6914c41a0e9f952c8d319b2",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>Update NeedIt Records,NeedIt Request,Update NeedIt Request</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Update NeedIt Records</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-19 10:15:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bcb361fa2ff050109013ffecf699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_bcb361fa2ff050109013ffecf699b63a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-19 10:15:35</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=bcb361fa2ff050109013ffecf699b63a"/>
+</record_update>
